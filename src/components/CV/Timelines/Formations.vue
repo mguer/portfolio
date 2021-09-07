@@ -27,7 +27,7 @@
               <v-chip
                   color="primary"
                   v-for="skill in experience.skills"
-                  :key="skill"
+                  :key="skill + experience.date + experience.business"
                   class="mr-1 mb-1"
               >
                 {{ skill }}
@@ -37,7 +37,7 @@
                   color="primary darken-2"
                   text-color="white"
                   v-for="skill in experience.softSkills"
-                  :key="skill"
+                  :key="skill + experience.business"
                   class="mr-1 mb-1"
               >
                 {{ skill }}
@@ -60,7 +60,7 @@ export default {
         business: "Ynov",
         location: "Lyon",
         resume: `Formation assez polyvalente entre frontend et backend, cours pratiques et consolidation des technologies vues antérieurement.`,
-        skills: ["VueJs", "Vuefify", "PWA", "Api platform", "Symfony", "Bootstrap", "PWA", "Illustrator", "Adobe XD"],
+        skills: ["VueJs", "Vuefify", "PWA", "Api platform", "Symfony", "Bootstrap", "Illustrator", "Adobe XD"],
         softSkills: ["Design pattern", "Intégration web", "UI/UX", "SEO", "Maquettes"],
         date: "2020-2021",
         color: "secondary",

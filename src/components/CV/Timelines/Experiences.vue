@@ -13,7 +13,7 @@
       <v-timeline align-top dense>
         <v-timeline-item
           v-for="experience in experiences"
-          :key="experience.title"
+          :key="experience.title + experience.business"
           :color="experience.color"
           small
         >
@@ -28,7 +28,7 @@
               <v-chip
                 color="primary"
                 v-for="skill in experience.skills"
-                :key="skill"
+                :key="skill + experience.date"
                 class="mr-1 mb-1"
               >
                 {{ skill }}
@@ -38,7 +38,7 @@
                 color="primary darken-2"
                 text-color="white"
                 v-for="skill in experience.softSkills"
-                :key="skill"
+                :key="skill + experience.date"
                 class="mr-1 mb-1"
               >
                 {{ skill }}
@@ -47,7 +47,6 @@
           </div>
         </v-timeline-item>
       </v-timeline>
-      <div class="font-weight-bold ml-8 mb-2">2015</div>
     </v-card-text>
   </v-card>
 </template>
@@ -63,7 +62,6 @@ export default {
         location: "Chasse-sur-Rhône",
         resume: `Création d'applications métiers cross platform pour la qualité opérationnelle, la supply chain. Application de pointage pour le service RH.`,
         skills: ["VueJs", "Vuefify", "PWA", "Api platform", "Symfony", "Bootstrap", "Postgre","Illustrator", "Adobe XD"],
-
         softSkills: ["Cahier des charges", "Mise en production", "Gestion de projet"],
         date: "2018-2021",
         color: "primary",
