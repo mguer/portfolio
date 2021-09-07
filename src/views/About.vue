@@ -22,11 +22,11 @@
             alt="Marianne Guerrero Développeuse web Lyon"
         ></v-avatar>
         <div class="d-flex mb-16">
-        <v-avatar
-            color="primary"
-            size="20"
+          <v-avatar
+              color="primary"
+              size="20"
 
-        ></v-avatar>
+          ></v-avatar>
           <v-avatar
               color="secondary"
               size="80"
@@ -40,44 +40,44 @@
           Vous pouvez allez consulter mes projets ou mon instagram pour voir si mon univers vous plaît.
         </p>
         <div>
-        <v-avatar color="primary" class="mr-5">
-          <v-icon dark>
-            fab fa-instagram
-          </v-icon>
-        </v-avatar>
-        <v-avatar color="primary">
-          <v-icon dark>
-            fab fa-linkedin
-          </v-icon>
-        </v-avatar>
+          <v-avatar color="primary" class="mr-5">
+            <v-icon dark>
+              fab fa-instagram
+            </v-icon>
+          </v-avatar>
+          <v-avatar color="primary">
+            <v-icon dark>
+              fab fa-linkedin
+            </v-icon>
+          </v-avatar>
         </div>
       </v-col>
-
     </v-row>
-    <v-divider light class="ma-12"></v-divider>
-    <v-row class="pa-8">
 
-      <v-col md="6" class="justify-center d-flex align-center">
+    <v-divider light class="ma-12"></v-divider>
+
+    <v-row class="">
+      <v-col class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-12 justify-center d-flex align-center my-10">
         <v-avatar
             color="primary"
             size="80"
         ></v-avatar>
-      <h2 class="titleDiag">
-        Compétences
-      </h2>
+        <h2 class="titleDiag">
+          Compétences
+        </h2>
         <v-avatar
             color="secondary"
             size="20"
         ></v-avatar>
       </v-col>
-      <v-col md="6">
-      <Dashboard></Dashboard>
+      <v-col class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-12" >
+        <DevSkills></DevSkills>
       </v-col>
-      <v-col md="6">
-        <Dashboard></Dashboard>
+      <v-col class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-12" >
+        <GraphicsSkills></GraphicsSkills>
       </v-col>
-      <v-col md="6">
-        <Dashboard></Dashboard>
+      <v-col class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-12" >
+        <SoftsSkillz></SoftsSkillz>
       </v-col>
     </v-row>
 
@@ -101,9 +101,12 @@
 import Dashboard from "../components/CV/Dashboard";
 import Experiences from "../components/CV/Timelines/Experiences";
 import Formations from "../components/CV/Timelines/Formations";
+import DevSkills from "../components/CV/DevSkills";
+import GraphicsSkills from "../components/CV/GraphicsSkills";
+import SoftsSkillz from "../components/CV/SoftsSkillz";
 export default {
   name: "About",
-  components: {Formations, Experiences, Dashboard},
+  components: {SoftsSkillz, GraphicsSkills, DevSkills, Formations, Experiences, Dashboard},
 };
 </script>
 <style scoped>
