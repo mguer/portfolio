@@ -21,7 +21,7 @@
       </v-btn>
     </router-link>
 
-    <router-link to="/projet">
+    <router-link to="/projets">
     <v-btn class="font-title" text>
       <span class="mr-2">Mes projets</span>
       <!--      <v-icon>fas fa-heart</v-icon>-->
