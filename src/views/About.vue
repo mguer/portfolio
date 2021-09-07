@@ -48,7 +48,7 @@
       <v-col md="6">
       <Dashboard></Dashboard>
       </v-col><v-col md="6">
-      <Dashboard></Dashboard>
+      test
       </v-col>
     </v-row>
 
