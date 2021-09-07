@@ -1,7 +1,18 @@
 <template>
   <v-container>
 
-    <v-row justify="space-between" class="pa-8 h-100">
+    <v-row justify="space-between" class="pa-8">
+      <v-avatar
+          color="primary"
+          size="30"
+      ></v-avatar>
+      <v-col md="12" class="d-flex justify-center">
+        <h1>Marianne Guerrero <br> développeuse web</h1>
+        <v-avatar
+            color="primary"
+            size="10"
+        ></v-avatar>
+      </v-col>
       <v-col md="6" class="d-flex justify-center align-center" >
         <v-avatar
             size="250"
@@ -26,7 +37,7 @@
         <p>
           Bonjour ! Je suis Marianne, développeuse web créative basée sur la région Lyonnaise. <br>
           N'hésitez pas à me contacter si vous avez des projets créatifs comme des portfolios, sites vitrines ou encore pour me proposer une opportunité sur Lyon !
-          Vous pouvez allez consulter mes projets ou mon instagram pour voir si mon univers vous plait.
+          Vous pouvez allez consulter mes projets ou mon instagram pour voir si mon univers vous plaît.
         </p>
         <div>
         <v-avatar color="primary" class="mr-5">
@@ -43,12 +54,30 @@
       </v-col>
 
     </v-row>
-
+    <v-divider light class="ma-12"></v-divider>
     <v-row class="pa-8">
+
+      <v-col md="6" class="justify-center d-flex align-center">
+        <v-avatar
+            color="primary"
+            size="80"
+        ></v-avatar>
+      <h2 class="titleDiag">
+        Compétences
+      </h2>
+        <v-avatar
+            color="secondary"
+            size="20"
+        ></v-avatar>
+      </v-col>
       <v-col md="6">
       <Dashboard></Dashboard>
-      </v-col><v-col md="6">
-      test
+      </v-col>
+      <v-col md="6">
+        <Dashboard></Dashboard>
+      </v-col>
+      <v-col md="6">
+        <Dashboard></Dashboard>
       </v-col>
     </v-row>
 
@@ -77,3 +106,11 @@ export default {
   components: {Formations, Experiences, Dashboard},
 };
 </script>
+<style scoped>
+
+.titleDiag{
+  transform: rotate(-25deg);
+  transform-origin: center center;
+}
+
+</style>

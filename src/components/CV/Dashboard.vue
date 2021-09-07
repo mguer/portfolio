@@ -1,14 +1,20 @@
 <template>
-  <Chart></Chart>
-
+  <v-card>
+    <v-card-title class="mt-5">
+      <h2 class="ml-3">
+        Développement web
+      </h2>
+    </v-card-title>
+    <div >
+    </div>
+  </v-card>
 </template>
 
 <script>
 
-import Chart from "./Chart";
+
 export default {
   name: "Dashboard",
-  components: {Chart}
 }
 </script>
 
