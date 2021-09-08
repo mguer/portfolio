@@ -1,5 +1,5 @@
 <template>
-  <div id="wrapper">
+  <div>
     <div class="background">
       <div class="d-flex justify-center mt-5">
         <img class="lignes" src="../assets/background/lignes.svg" />

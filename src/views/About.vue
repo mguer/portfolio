@@ -98,7 +98,6 @@
 <script>
 
 
-import Dashboard from "../components/CV/Dashboard";
 import Experiences from "../components/CV/Timelines/Experiences";
 import Formations from "../components/CV/Timelines/Formations";
 import DevSkills from "../components/CV/DevSkills";
@@ -106,14 +105,6 @@ import GraphicsSkills from "../components/CV/GraphicsSkills";
 import SoftsSkillz from "../components/CV/SoftsSkillz";
 export default {
   name: "About",
-  components: {SoftsSkillz, GraphicsSkills, DevSkills, Formations, Experiences, Dashboard},
+  components: {SoftsSkillz, GraphicsSkills, DevSkills, Formations, Experiences},
 };
 </script>
-<style scoped>
-
-.titleDiag{
-  transform: rotate(-25deg);
-  transform-origin: center center;
-}
-
-</style>

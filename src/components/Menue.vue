@@ -11,21 +11,18 @@
     <router-link to="/home">
       <v-btn class="font-title" target="_blank" text>
         <span class="mr-2">Accueil</span>
-        <!--      <v-icon>fas fa-external-link-alt</v-icon>-->
       </v-btn>
     </router-link>
     <router-link to="/about">
       <v-btn class="font-title" target="_blank" text>
         <span class="mr-2">À propos</span>
-        <!--      <v-icon>fas fa-external-link-alt</v-icon>-->
       </v-btn>
     </router-link>
 
     <router-link to="/projets">
-    <v-btn class="font-title" text>
-      <span class="mr-2">Mes projets</span>
-      <!--      <v-icon>fas fa-heart</v-icon>-->
-    </v-btn>
+      <v-btn class="font-title" text>
+        <span class="mr-2">Mes projets</span>
+      </v-btn>
     </router-link>
     <v-spacer></v-spacer>
   </v-app-bar>
@@ -39,7 +36,8 @@ export default {
 
 <style scoped lang="scss">
 .borderBottom {
-  border-bottom: 8px solid;
+  margin-bottom: 0;
+  border-bottom: 2px solid;
   background: linear-gradient(
       to left,
       var(--v-primary-base),
@@ -47,7 +45,7 @@ export default {
       var(--v-secondary-base)
     )
     left bottom no-repeat;
-  background-size: 100% 5px; /* if linear-gradient, we need to resize it */
+  background-size: 100% 5px;
 }
 
 a {

@@ -85,4 +85,9 @@ html {
 .w-100{
   width: 100vw;
 }
+
+.titleDiag{
+  transform: rotate(-25deg);
+  transform-origin: center center;
+}
 </style>
