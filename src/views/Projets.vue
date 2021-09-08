@@ -1,11 +1,20 @@
 <template>
   <v-container>
 
-    <v-row justify="center" class="pa-8">
-      <v-col>
-        <h1>Projets webs et graphiques</h1>
+    <v-row justify="space-between" class="pa-8">
+      <v-avatar
+          color="primary"
+          size="30"
+      ></v-avatar>
+      <v-col md="12" class="d-flex justify-center bg-line">
+        <h1>Projets webs <br> et graphiques</h1>
+        <v-avatar
+            color="primary"
+            size="10"
+        ></v-avatar>
       </v-col>
     </v-row>
+
     <v-row>
       <v-card
           col="6"
@@ -64,5 +73,9 @@ export default {
 </script>
 
 <style scoped>
-
+.bg-line {
+  background-image: url("../assets/background/lignes.svg");
+  background-size: contain;
+  background-position: center;
+}
 </style>

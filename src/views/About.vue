@@ -6,7 +6,7 @@
           color="primary"
           size="30"
       ></v-avatar>
-      <v-col md="12" class="d-flex justify-center">
+      <v-col md="12" class="d-flex justify-center bg-line">
         <h1>Marianne Guerrero <br> développeuse web</h1>
         <v-avatar
             color="primary"
@@ -56,7 +56,7 @@
 
     <v-divider light class="ma-12"></v-divider>
 
-    <v-row class="">
+    <v-row>
       <v-col class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-12 justify-center d-flex align-center my-10">
         <v-avatar
             color="primary"
@@ -108,3 +108,11 @@ export default {
   components: {SoftsSkillz, GraphicsSkills, DevSkills, Formations, Experiences},
 };
 </script>
+
+<style scoped>
+.bg-line {
+  background-image: url("../assets/background/lignes.svg");
+  background-size: contain;
+  background-position: center;
+}
+</style>

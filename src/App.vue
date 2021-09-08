@@ -68,7 +68,7 @@ $body-font: "Poppins";
 
 .gradient {
   background: linear-gradient(
-  to right,
+    to right,
     var(--v-primary-base),
     var(--v-primary-darken1),
     var(--v-secondary-base)
@@ -79,15 +79,16 @@ html {
   overflow-y: auto !important;
 }
 
-.h-100{
+.h-100 {
   height: 100vh;
 }
-.w-100{
+.w-100 {
   width: 100vw;
 }
 
-.titleDiag{
+.titleDiag {
   transform: rotate(-25deg);
   transform-origin: center center;
 }
+
 </style>
