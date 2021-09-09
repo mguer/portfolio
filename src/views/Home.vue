@@ -2,11 +2,11 @@
   <div>
     <div class="background">
       <div class="d-flex justify-center mt-5">
-        <img class="lignes" src="../assets/background/lignes.svg" />
+        <img class="lines" src="../assets/background/lignes.svg" />
       </div>
     </div>
 
-    <div class="texteFront">
+    <div class="text-home">
       <h1>
         Marianne <br />
         Guerrero <br />
@@ -32,21 +32,21 @@ export default {
   height: 100%;
   width: 100%;
   background-image: url("../assets/background/diagonale.svg");
-  animation: animatedBackground 7s linear infinite alternate;
+  animation: animated-background 7s linear infinite alternate;
 }
 
-.texteFront {
+.text-home {
   position: absolute;
   font-weight: bold;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%) rotate(-25deg);
 }
-.texteFront h1 {
+.text-home h1 {
   font-size: 4rem !important;
 }
 
-@keyframes animatedBackground {
+@keyframes animated-background {
   from {
     background-position: 25% 75%;
   }
@@ -55,7 +55,7 @@ export default {
   }
 }
 
-.lignes {
+.lines {
   animation: shine 3s linear infinite alternate;
   height: 60vh;
   width: 80vw;

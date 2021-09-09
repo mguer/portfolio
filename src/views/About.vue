@@ -33,7 +33,7 @@
           ></v-avatar>
         </div>
       </v-col>
-      <v-col md="6" class="d-flex justify-center flex-column">
+      <v-col class="d-flex justify-center flex-column col-sm-12 col-md-6 col-lg-6 col-xl-6 col-12">
         <p>
           Bonjour ! Je suis Marianne, développeuse web créative basée sur la région Lyonnaise. <br>
           N'hésitez pas à me contacter si vous avez des projets créatifs comme des portfolios, sites vitrines ou encore pour me proposer une opportunité sur Lyon !
