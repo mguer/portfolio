@@ -1,75 +1,72 @@
 <template>
   <v-container>
-
     <v-row justify="space-between" class="pa-8">
-      <v-avatar
-          color="primary"
-          size="30"
-      ></v-avatar>
+      <v-avatar color="primary" size="30"></v-avatar>
       <v-col md="12" class="d-flex justify-center bg-line">
-        <h1>Projets webs <br> et graphiques</h1>
-        <v-avatar
-            color="primary"
-            size="10"
-        ></v-avatar>
+        <h1>
+          Projets webs <br />
+          et graphiques
+        </h1>
+        <v-avatar color="primary" size="10"></v-avatar>
       </v-col>
     </v-row>
 
-    <v-row>
+    <v-row class="justify-center">
       <v-card
-          col="6"
-          class="mx-auto"
-          max-width="344"
+        v-for="project in projects"
+        :key="project.id + project.title"
+        col="6"
+        class="ma-5"
+        max-width="344"
       >
         <v-img
-            src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
-            height="200px"
+          :src="require(`../../public/img/ProjectImg/${project.coverSrc}`)"
+          height="200px"
         ></v-img>
 
         <v-card-title>
-          Top western road trips
+          <h2 class="mr-2">
+            {{ project.title }}
+          </h2>
+          <br />
+
+          <v-tooltip
+            top
+            v-for="(icone, value) in project.icones"
+            :key="icone + project.title"
+          >
+            <template v-slot:activator="{ on, attrs }">
+              <v-chip v-bind="attrs" v-on="on" color="primary" class="ma-1">
+                <v-icon>
+                  {{ icone }}
+                </v-icon>
+              </v-chip>
+            </template>
+            <span>{{ value }}</span>
+          </v-tooltip>
         </v-card-title>
-
-        <v-card-subtitle>
-          1,000 miles of wonder
+        <v-card-subtitle class="mt-1">
+          <p>{{ project.resume }}</p>
+          <v-btn color="primary" rounded class="font-title">
+            Voir
+          </v-btn>
         </v-card-subtitle>
-
-        <v-card-actions>
-          <v-btn
-              color="orange lighten-2"
-              text
-          >
-            Explore
-          </v-btn>
-
-          <v-spacer></v-spacer>
-
-          <v-btn
-              icon
-              @click="show = !show"
-          >
-            <v-icon>{{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
-          </v-btn>
-        </v-card-actions>
-
-        <v-expand-transition>
-          <div v-show="show">
-            <v-divider></v-divider>
-
-            <v-card-text>
-              I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file! Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find a way to escape.
-            </v-card-text>
-          </div>
-        </v-expand-transition>
       </v-card>
     </v-row>
   </v-container>
 </template>
 
 <script>
+import data from "../assets/db/projects.json";
+
 export default {
-  name: "Projets"
-}
+  name: "Projets",
+  data() {
+    return {
+      projects: data.projects,
+    };
+  },
+};
 </script>
 
 <style scoped>

@@ -1,0 +1,210 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Kafeo",
+      "resume": "Création de maquettes mobiles pour l'entreprise fictive Kafeo",
+      "details": "Kafo est une entreprise fictive qui propose à la vente des dosettes de café responsables, recyclable.",
+      "goal": "Ce projet avait pour but de produire une interface en accord avec les hibitudes de nos cibles.",
+      "realisation": "Nous avons réalisé des personae, ainsi que leur empathy map, ensuite nous avons réalisé des wireframes pour finir sur les maquettes",
+      "coverSrc": "Kafeo/Kafeo-cover.png",
+      "imgsSrcs": [
+        "Kafeo/mockupDosette.png",
+        "Kafeo/DosetteHome.png",
+        "Kafeo/Page.png"
+      ],
+      "year": "2021",
+      "icones": {
+        "travail en groupe" : "fas fa-users",
+        "graphisme" : "fas fa-pen"
+      },
+      "technology": ["Figma", "UI/UX", "Photoshop", "Personnae"],
+      "img": ["Figma", "UI/UX", "Photoshop", "Personnae"]
+    },
+    {
+      "id": 2,
+      "title": "Bet-it",
+      "resume": "Site de paris e-sport sur le jeu League of Legends",
+      "details": "Bet-it est un site de paris e-sportif sur le jeu League of Legends.",
+      "goal": "Ce projet de fin d'année de master avait pour but la création d'une platfome e-sportive à partir de données d'une api e-sport en intégrant le principe de Fantasy League. ",
+      "realisation": "Nous avons réalisé les maquettes, la charte graphique, le développement ainsi que l'intégration des données de l'API Leaguepedia. Nous avons également évaluer la faisabilité du projet en intégrant un aspect marketing avec des cibles et une stratégie de communication. Un entretien a aussi été fait avec une avocate pour déterminer les points juridiques à mettre en lumière.",
+      "coverSrc": "Bet-it/landing.png",
+      "imgsSrcs": [
+        "Bet-it/home.png",
+        "Bet-it/fantasyLeagueFinal.png",
+        "Bet-it/fantasyLeague.png",
+        "Bet-it/popUp.png"
+      ],
+      "year": "2021",
+      "icones": {
+        "travail en groupe" : "fas fa-users",
+        "graphisme" : "fas fa-pen",
+        "développement" : "fas fa-code",
+        "projet de fin d'année" : "fas fa-graduation-cap"
+      },
+      "technology": ["Figma", "UI/UX", "Illustrator", "Personnae", ""],
+      "img": ["Figma", "UI/UX", "Photoshop", "Personnae"]
+    },
+    {
+      "id": 3,
+      "title": "Emball'app",
+      "resume": "Application PWA qui permet de scanner des produits pour en visualiser l'impact environnementale",
+      "details": "Emball'app est une application qui permet de se rendre compte de l'impacte environnemental de produit scannés.",
+      "goal": "Ce projet avait pour but de ",
+      "realisation": "Nous avons réalisé les maquettes, la charte graphique, le développement ainsi que l'intégration des données de l'API Leaguepedia. Nous avons également évaluer la faisabilité du projet en intégrant un aspect marketing avec des cibles et une stratégie de communication. Un entretien a aussi été fait avec une avocate pour déterminer les points juridiques à mettre en lumière.",
+      "coverSrc": "Bet-it/landing.png",
+      "imgsSrcs": [
+        "Bet-it/home.png",
+        "Bet-it/fantasyLeagueFinal.png",
+        "Bet-it/fantasyLeague.png",
+        "Bet-it/popUp.png"
+      ],
+      "year": "2021",
+      "icones": {
+        "travail en groupe" : "fas fa-users",
+        "graphisme" : "fas fa-pen",
+        "développement" : "fas fa-code"
+      },
+      "technology": ["Figma", "UI/UX", "Illustrator", "Personnae", ""],
+      "img": ["Figma", "UI/UX", "Photoshop", "Personnae"]
+    },
+    {
+      "id": 4,
+      "title": "Digital SEO",
+      "resume": "Site vitrine pour l'agence fictive Digital SEO",
+      "details": "Emball'app est une application qui permet de se rendre compte de l'impacte environnemental de produit scannés.",
+      "goal": "Ce projet avait pour but de ",
+      "realisation": "Nous avons réalisé les maquettes, la charte graphique, le développement ainsi que l'intégration des données de l'API Leaguepedia. Nous avons également évaluer la faisabilité du projet en intégrant un aspect marketing avec des cibles et une stratégie de communication. Un entretien a aussi été fait avec une avocate pour déterminer les points juridiques à mettre en lumière.",
+      "coverSrc": "Bet-it/landing.png",
+      "imgsSrcs": [
+        "Bet-it/home.png",
+        "Bet-it/fantasyLeagueFinal.png",
+        "Bet-it/fantasyLeague.png",
+        "Bet-it/popUp.png"
+      ],
+      "year": "2021",
+      "icones": {
+        "travail en groupe" : "fas fa-users",
+        "graphisme" : "fas fa-pen",
+        "développement" : "fas fa-code"
+      },
+      "technology": ["Figma", "UI/UX", "Illustrator", "Personnae", ""],
+      "img": ["Figma", "UI/UX", "Photoshop", "Personnae"]
+    },
+    {
+      "id": 5,
+      "title": "Fire Flies",
+      "resume": "Site vitrine pour l'agence fictive Digital SEO",
+      "details": "Emball'app est une application qui permet de se rendre compte de l'impacte environnemental de produit scannés.",
+      "goal": "Ce projet avait pour but de ",
+      "realisation": "Nous avons réalisé les maquettes, la charte graphique, le développement ainsi que l'intégration des données de l'API Leaguepedia. Nous avons également évaluer la faisabilité du projet en intégrant un aspect marketing avec des cibles et une stratégie de communication. Un entretien a aussi été fait avec une avocate pour déterminer les points juridiques à mettre en lumière.",
+      "coverSrc": "Bet-it/landing.png",
+      "imgsSrcs": [
+        "Bet-it/home.png",
+        "Bet-it/fantasyLeagueFinal.png",
+        "Bet-it/fantasyLeague.png",
+        "Bet-it/popUp.png"
+      ],
+      "year": "2021",
+      "icones": {
+        "travail en groupe" : "fas fa-users",
+        "graphisme" : "fas fa-pen",
+        "développement" : "fas fa-code"
+      },
+      "technology": ["Figma", "UI/UX", "Illustrator", "Personnae", ""],
+      "img": ["Figma", "UI/UX", "Photoshop", "Personnae"]
+    },
+    {
+      "id": 6,
+      "title": "Space Portfolio",
+      "resume": "Site vitrine pour l'agence fictive Digital SEO",
+      "details": "Emball'app est une application qui permet de se rendre compte de l'impacte environnemental de produit scannés.",
+      "goal": "Ce projet avait pour but de ",
+      "realisation": "Nous avons réalisé les maquettes, la charte graphique, le développement ainsi que l'intégration des données de l'API Leaguepedia. Nous avons également évaluer la faisabilité du projet en intégrant un aspect marketing avec des cibles et une stratégie de communication. Un entretien a aussi été fait avec une avocate pour déterminer les points juridiques à mettre en lumière.",
+      "coverSrc": "Bet-it/landing.png",
+      "imgsSrcs": [
+        "Bet-it/home.png",
+        "Bet-it/fantasyLeagueFinal.png",
+        "Bet-it/fantasyLeague.png",
+        "Bet-it/popUp.png"
+      ],
+      "year": "2021",
+      "icones": {
+        "travail en groupe" : "fas fa-users",
+        "graphisme" : "fas fa-pen",
+        "développement" : "fas fa-code"
+      },
+      "technology": ["Figma", "UI/UX", "Illustrator", "Personnae", ""],
+      "img": ["Figma", "UI/UX", "Photoshop", "Personnae"]
+    },
+    {
+      "id": 6,
+      "title": "QOPSE",
+      "resume": "Application de remontées de non conformités pour le service qualité opérationnelle de l'entreprise Fives Intralogistics ",
+      "details": "Emball'app est une application qui permet de se rendre compte de l'impacte environnemental de produit scannés.",
+      "goal": "Ce projet avait pour but de ",
+      "realisation": "Nous avons réalisé les maquettes, la charte graphique, le développement ainsi que l'intégration des données de l'API Leaguepedia. Nous avons également évaluer la faisabilité du projet en intégrant un aspect marketing avec des cibles et une stratégie de communication. Un entretien a aussi été fait avec une avocate pour déterminer les points juridiques à mettre en lumière.",
+      "coverSrc": "Bet-it/landing.png",
+      "imgsSrcs": [
+        "Bet-it/home.png",
+        "Bet-it/fantasyLeagueFinal.png",
+        "Bet-it/fantasyLeague.png",
+        "Bet-it/popUp.png"
+      ],
+      "year": "2021",
+      "icones": {
+        "travail en groupe" : "fas fa-users",
+        "graphisme" : "fas fa-pen",
+        "développement" : "fas fa-code"
+      },
+      "technology": ["Figma", "UI/UX", "Illustrator", "Personnae", ""],
+      "img": ["Figma", "UI/UX", "Photoshop", "Personnae"]
+    },
+    {
+      "id": 7,
+      "title": "Help & Go",
+      "resume": "Site e-commerce permettant de trouver des produits dans des commerces de proximité ",
+      "details": "Emball'app est une application qui permet de se rendre compte de l'impacte environnemental de produit scannés.",
+      "goal": "Ce projet avait pour but de ",
+      "realisation": "Nous avons réalisé les maquettes, la charte graphique, le développement ainsi que l'intégration des données de l'API Leaguepedia. Nous avons également évaluer la faisabilité du projet en intégrant un aspect marketing avec des cibles et une stratégie de communication. Un entretien a aussi été fait avec une avocate pour déterminer les points juridiques à mettre en lumière.",
+      "coverSrc": "Bet-it/landing.png",
+      "imgsSrcs": [
+        "Bet-it/home.png",
+        "Bet-it/fantasyLeagueFinal.png",
+        "Bet-it/fantasyLeague.png",
+        "Bet-it/popUp.png"
+      ],
+      "year": "2021",
+      "icones": {
+        "travail en groupe" : "fas fa-users",
+        "graphisme" : "fas fa-pen",
+        "développement" : "fas fa-code"
+      },
+      "technology": ["Figma", "UI/UX", "Illustrator", "Personnae", ""],
+      "img": ["Figma", "UI/UX", "Photoshop", "Personnae"]
+    },
+    {
+      "id": 6,
+      "title": "Acity",
+      "resume": "Site vitrine pour l'agence fictive Digital SEO",
+      "details": "Emball'app est une application qui permet de se rendre compte de l'impacte environnemental de produit scannés.",
+      "goal": "Ce projet avait pour but de ",
+      "realisation": "Nous avons réalisé les maquettes, la charte graphique, le développement ainsi que l'intégration des données de l'API Leaguepedia. Nous avons également évaluer la faisabilité du projet en intégrant un aspect marketing avec des cibles et une stratégie de communication. Un entretien a aussi été fait avec une avocate pour déterminer les points juridiques à mettre en lumière.",
+      "coverSrc": "Bet-it/landing.png",
+      "imgsSrcs": [
+        "Bet-it/home.png",
+        "Bet-it/fantasyLeagueFinal.png",
+        "Bet-it/fantasyLeague.png",
+        "Bet-it/popUp.png"
+      ],
+      "year": "2021",
+      "icones": {
+        "travail en groupe" : "fas fa-users",
+        "graphisme" : "fas fa-pen",
+        "développement" : "fas fa-code"
+      },
+      "technology": ["Figma", "UI/UX", "Illustrator", "Personnae", ""],
+      "img": ["Figma", "UI/UX", "Photoshop", "Personnae"]
+    }
+  ]
+}

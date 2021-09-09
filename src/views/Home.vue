@@ -32,7 +32,7 @@ export default {
   height: 100%;
   width: 100%;
   background-image: url("../assets/background/diagonale.svg");
-  animation: animated-background 7s linear infinite alternate;
+  animation: animated-background 10s linear infinite alternate;
 }
 
 .text-home {

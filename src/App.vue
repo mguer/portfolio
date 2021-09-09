@@ -68,6 +68,7 @@ $body-font: "Poppins";
 
 .gradient {
   background: linear-gradient(
+  42deg,
     var(--v-primary-base),
     var(--v-accent-lighten1),
     var(--v-secondary-base)
