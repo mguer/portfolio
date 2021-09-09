@@ -68,9 +68,8 @@ $body-font: "Poppins";
 
 .gradient {
   background: linear-gradient(
-    to right,
     var(--v-primary-base),
-    var(--v-primary-darken1),
+    var(--v-accent-lighten1),
     var(--v-secondary-base)
   );
 }
@@ -90,5 +89,4 @@ html {
   transform: rotate(-25deg);
   transform-origin: center center;
 }
-
 </style>
