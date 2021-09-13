@@ -105,9 +105,6 @@ export default {
 </script>
 
 <style scoped>
-.bg-line {
-  background-image: url("../assets/background/lignes.svg");
-  background-size: contain;
-  background-position: center;
-}
+
+
 </style>

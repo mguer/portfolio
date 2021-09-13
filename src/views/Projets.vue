@@ -25,9 +25,9 @@
         ></v-img>
 
         <v-card-title>
-          <h2 class="mr-2">
+          <h3 class="mr-2">
             {{ project.title }}
-          </h2>
+          </h3>
           <br />
 
           <v-tooltip
@@ -47,9 +47,11 @@
         </v-card-title>
         <v-card-subtitle class="mt-1">
           <p>{{ project.resume }}</p>
+          <router-link :to="{ name: 'Projet', params: { id: project.id }}">
           <v-btn color="primary" rounded class="font-title">
             Voir
           </v-btn>
+          </router-link>
         </v-card-subtitle>
       </v-card>
     </v-row>
@@ -70,9 +72,4 @@ export default {
 </script>
 
 <style scoped>
-.bg-line {
-  background-image: url("../assets/background/lignes.svg");
-  background-size: contain;
-  background-position: center;
-}
 </style>

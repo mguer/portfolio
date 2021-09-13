@@ -31,12 +31,15 @@ $body-font: "Poppins";
     font-weight: bold;
     font-size: 2.5rem;
   }
-  h2,
-  h3,
-  h4 {
+  h2{
     font-family: $title-font, sans-serif !important;
     font-weight: bold;
     font-size: 2rem;
+  }
+  h3,h4 {
+    font-family: $title-font, sans-serif !important;
+    font-weight: bold;
+    font-size: 1rem;
   }
   p,
   a {
@@ -89,5 +92,12 @@ html {
 .titleDiag {
   transform: rotate(-25deg);
   transform-origin: center center;
+  font-size: 2rem !important;
+}
+
+.bg-line {
+  background-image: url("./assets/background/lignes.svg");
+  background-size: contain;
+  background-position: center;
 }
 </style>

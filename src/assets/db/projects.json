@@ -2,48 +2,53 @@
   "projects": [
     {
       "id": 1,
-      "title": "Kafeo",
-      "resume": "Création de maquettes mobiles pour l'entreprise fictive Kafeo",
-      "details": "Kafo est une entreprise fictive qui propose à la vente des dosettes de café responsables, recyclable.",
-      "goal": "Ce projet avait pour but de produire une interface en accord avec les hibitudes de nos cibles.",
-      "realisation": "Nous avons réalisé des personae, ainsi que leur empathy map, ensuite nous avons réalisé des wireframes pour finir sur les maquettes",
+      "title": "Kaféo",
+      "resume": "Création de maquettes mobiles pour l'entreprise fictive Kaféo.",
+      "details": "Kaféo est une entreprise fictive qui propose à la vente des dosettes de café responsables et recyclables.",
+      "goal": "Ce projet de groupe avait pour but de produire une interface utilisateur en accord avec les hibitudes de nos cibles et les valeurs de la marque.",
+      "realisation": "Nous avons réalisé des personae et leurs empathy map afin de produir les wireframes et enfin les maquettes.",
       "coverSrc": "Kafeo/Kafeo-cover.png",
-      "imgsSrcs": [
-        "Kafeo/mockupDosette.png",
-        "Kafeo/DosetteHome.png",
-        "Kafeo/Page.png"
-      ],
+      "mockupImg": "Kafeo/mockupDosette.png",
+      "mockupImg2": "Kafeo/Pages.png",
+      "bigImg": "Kafeo/DosettesHome.png",
       "year": "2021",
       "icones": {
-        "travail en groupe" : "fas fa-users",
+        "travail en équipe" : "fas fa-users",
         "graphisme" : "fas fa-pen"
       },
-      "technology": ["Figma", "UI/UX", "Photoshop", "Personnae"],
-      "img": ["Figma", "UI/UX", "Photoshop", "Personnae"]
+      "technologies": ["Figma", "UI/UX", "Photoshop", "Personnae", "Wireframes", "Maquettes"],
+      "link": [""]
     },
     {
       "id": 2,
       "title": "Bet-it",
-      "resume": "Site de paris e-sport sur le jeu League of Legends",
-      "details": "Bet-it est un site de paris e-sportif sur le jeu League of Legends.",
-      "goal": "Ce projet de fin d'année de master avait pour but la création d'une platfome e-sportive à partir de données d'une api e-sport en intégrant le principe de Fantasy League. ",
+      "resume": "Site de paris e-sport sur le jeu League of Legends.",
+      "details": "Projet de fin d'année de master, création d'une platforme de paris e-sportif sur le jeu League of Legend.",
+      "goal": "Ce projet de fin d'année de master avait pour but la création d'une platfome e-sportive à partir de données d'une api e-sport. Nous avons intégré le concepte de Fantasy League permet aux joueur de composer son équipe idéale et de gagner un score avec les matchs de la vie réelle et lui permettra d'avoir des récompenses en fonction de ces derniers.",
       "realisation": "Nous avons réalisé les maquettes, la charte graphique, le développement ainsi que l'intégration des données de l'API Leaguepedia. Nous avons également évaluer la faisabilité du projet en intégrant un aspect marketing avec des cibles et une stratégie de communication. Un entretien a aussi été fait avec une avocate pour déterminer les points juridiques à mettre en lumière.",
       "coverSrc": "Bet-it/landing.png",
-      "imgsSrcs": [
+      "mockupImg": "Bet-it/mockupParis.png",
+      "mockupImg2": "Bet-it/mockupHome.png",
+      "bigImg": "Bet-it/landing.png",
+      "imgs": [
         "Bet-it/home.png",
+        "Bet-it/homeFantasyLeague.png",
+        "Bet-it/popUp.png",
         "Bet-it/fantasyLeagueFinal.png",
-        "Bet-it/fantasyLeague.png",
-        "Bet-it/popUp.png"
+        "Bet-it/mockupHome.png"
       ],
       "year": "2021",
       "icones": {
-        "travail en groupe" : "fas fa-users",
+        "travail en équipe" : "fas fa-users",
         "graphisme" : "fas fa-pen",
         "développement" : "fas fa-code",
         "projet de fin d'année" : "fas fa-graduation-cap"
       },
-      "technology": ["Figma", "UI/UX", "Illustrator", "Personnae", ""],
-      "img": ["Figma", "UI/UX", "Photoshop", "Personnae"]
+      "technologies": ["Figma", "UI/UX", "Illustrator", "AdobeXD", "Web Marketing", "Personnae", "Symfony", "Api PLatforme", "VueJs", "Vuetify"],
+      "links": {
+        "site web" : "https://bet-it-gg.netlify.app/",
+        "instagram" : "https://bet-it-gg.netlify.app/"
+      }
     },
     {
       "id": 3,
@@ -53,7 +58,7 @@
       "goal": "Ce projet avait pour but de ",
       "realisation": "Nous avons réalisé les maquettes, la charte graphique, le développement ainsi que l'intégration des données de l'API Leaguepedia. Nous avons également évaluer la faisabilité du projet en intégrant un aspect marketing avec des cibles et une stratégie de communication. Un entretien a aussi été fait avec une avocate pour déterminer les points juridiques à mettre en lumière.",
       "coverSrc": "Bet-it/landing.png",
-      "imgsSrcs": [
+      "imgs": [
         "Bet-it/home.png",
         "Bet-it/fantasyLeagueFinal.png",
         "Bet-it/fantasyLeague.png",
@@ -61,11 +66,11 @@
       ],
       "year": "2021",
       "icones": {
-        "travail en groupe" : "fas fa-users",
+        "travail en équipe" : "fas fa-users",
         "graphisme" : "fas fa-pen",
         "développement" : "fas fa-code"
       },
-      "technology": ["Figma", "UI/UX", "Illustrator", "Personnae", ""],
+      "technologies": ["Figma", "UI/UX", "Illustrator", "Personnae", ""],
       "img": ["Figma", "UI/UX", "Photoshop", "Personnae"]
     },
     {
@@ -76,7 +81,7 @@
       "goal": "Ce projet avait pour but de ",
       "realisation": "Nous avons réalisé les maquettes, la charte graphique, le développement ainsi que l'intégration des données de l'API Leaguepedia. Nous avons également évaluer la faisabilité du projet en intégrant un aspect marketing avec des cibles et une stratégie de communication. Un entretien a aussi été fait avec une avocate pour déterminer les points juridiques à mettre en lumière.",
       "coverSrc": "Bet-it/landing.png",
-      "imgsSrcs": [
+      "imgs": [
         "Bet-it/home.png",
         "Bet-it/fantasyLeagueFinal.png",
         "Bet-it/fantasyLeague.png",
@@ -84,11 +89,11 @@
       ],
       "year": "2021",
       "icones": {
-        "travail en groupe" : "fas fa-users",
+        "travail en équipe" : "fas fa-users",
         "graphisme" : "fas fa-pen",
         "développement" : "fas fa-code"
       },
-      "technology": ["Figma", "UI/UX", "Illustrator", "Personnae", ""],
+      "technologies": ["Figma", "UI/UX", "Illustrator", "Personnae", ""],
       "img": ["Figma", "UI/UX", "Photoshop", "Personnae"]
     },
     {
@@ -99,7 +104,7 @@
       "goal": "Ce projet avait pour but de ",
       "realisation": "Nous avons réalisé les maquettes, la charte graphique, le développement ainsi que l'intégration des données de l'API Leaguepedia. Nous avons également évaluer la faisabilité du projet en intégrant un aspect marketing avec des cibles et une stratégie de communication. Un entretien a aussi été fait avec une avocate pour déterminer les points juridiques à mettre en lumière.",
       "coverSrc": "Bet-it/landing.png",
-      "imgsSrcs": [
+      "imgs": [
         "Bet-it/home.png",
         "Bet-it/fantasyLeagueFinal.png",
         "Bet-it/fantasyLeague.png",
@@ -107,11 +112,11 @@
       ],
       "year": "2021",
       "icones": {
-        "travail en groupe" : "fas fa-users",
+        "travail en équipe" : "fas fa-users",
         "graphisme" : "fas fa-pen",
         "développement" : "fas fa-code"
       },
-      "technology": ["Figma", "UI/UX", "Illustrator", "Personnae", ""],
+      "technologies": ["Figma", "UI/UX", "Illustrator", "Personnae", ""],
       "img": ["Figma", "UI/UX", "Photoshop", "Personnae"]
     },
     {
@@ -122,7 +127,7 @@
       "goal": "Ce projet avait pour but de ",
       "realisation": "Nous avons réalisé les maquettes, la charte graphique, le développement ainsi que l'intégration des données de l'API Leaguepedia. Nous avons également évaluer la faisabilité du projet en intégrant un aspect marketing avec des cibles et une stratégie de communication. Un entretien a aussi été fait avec une avocate pour déterminer les points juridiques à mettre en lumière.",
       "coverSrc": "Bet-it/landing.png",
-      "imgsSrcs": [
+      "imgs": [
         "Bet-it/home.png",
         "Bet-it/fantasyLeagueFinal.png",
         "Bet-it/fantasyLeague.png",
@@ -130,22 +135,22 @@
       ],
       "year": "2021",
       "icones": {
-        "travail en groupe" : "fas fa-users",
+        "travail en équipe" : "fas fa-users",
         "graphisme" : "fas fa-pen",
         "développement" : "fas fa-code"
       },
-      "technology": ["Figma", "UI/UX", "Illustrator", "Personnae", ""],
+      "technologies": ["Figma", "UI/UX", "Illustrator", "Personnae", ""],
       "img": ["Figma", "UI/UX", "Photoshop", "Personnae"]
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "QOPSE",
       "resume": "Application de remontées de non conformités pour le service qualité opérationnelle de l'entreprise Fives Intralogistics ",
       "details": "Emball'app est une application qui permet de se rendre compte de l'impacte environnemental de produit scannés.",
       "goal": "Ce projet avait pour but de ",
       "realisation": "Nous avons réalisé les maquettes, la charte graphique, le développement ainsi que l'intégration des données de l'API Leaguepedia. Nous avons également évaluer la faisabilité du projet en intégrant un aspect marketing avec des cibles et une stratégie de communication. Un entretien a aussi été fait avec une avocate pour déterminer les points juridiques à mettre en lumière.",
       "coverSrc": "Bet-it/landing.png",
-      "imgsSrcs": [
+      "imgs": [
         "Bet-it/home.png",
         "Bet-it/fantasyLeagueFinal.png",
         "Bet-it/fantasyLeague.png",
@@ -153,22 +158,22 @@
       ],
       "year": "2021",
       "icones": {
-        "travail en groupe" : "fas fa-users",
+        "travail en équipe" : "fas fa-users",
         "graphisme" : "fas fa-pen",
         "développement" : "fas fa-code"
       },
-      "technology": ["Figma", "UI/UX", "Illustrator", "Personnae", ""],
+      "technologies": ["Figma", "UI/UX", "Illustrator", "Personnae", ""],
       "img": ["Figma", "UI/UX", "Photoshop", "Personnae"]
     },
     {
-      "id": 7,
+      "id": 8,
       "title": "Help & Go",
       "resume": "Site e-commerce permettant de trouver des produits dans des commerces de proximité ",
       "details": "Emball'app est une application qui permet de se rendre compte de l'impacte environnemental de produit scannés.",
       "goal": "Ce projet avait pour but de ",
       "realisation": "Nous avons réalisé les maquettes, la charte graphique, le développement ainsi que l'intégration des données de l'API Leaguepedia. Nous avons également évaluer la faisabilité du projet en intégrant un aspect marketing avec des cibles et une stratégie de communication. Un entretien a aussi été fait avec une avocate pour déterminer les points juridiques à mettre en lumière.",
       "coverSrc": "Bet-it/landing.png",
-      "imgsSrcs": [
+      "imgs": [
         "Bet-it/home.png",
         "Bet-it/fantasyLeagueFinal.png",
         "Bet-it/fantasyLeague.png",
@@ -176,22 +181,22 @@
       ],
       "year": "2021",
       "icones": {
-        "travail en groupe" : "fas fa-users",
+        "travail en équipe" : "fas fa-users",
         "graphisme" : "fas fa-pen",
         "développement" : "fas fa-code"
       },
-      "technology": ["Figma", "UI/UX", "Illustrator", "Personnae", ""],
+      "technologies": ["Figma", "UI/UX", "Illustrator", "Personnae", ""],
       "img": ["Figma", "UI/UX", "Photoshop", "Personnae"]
     },
     {
-      "id": 6,
+      "id": 9,
       "title": "Acity",
       "resume": "Site vitrine pour l'agence fictive Digital SEO",
       "details": "Emball'app est une application qui permet de se rendre compte de l'impacte environnemental de produit scannés.",
       "goal": "Ce projet avait pour but de ",
       "realisation": "Nous avons réalisé les maquettes, la charte graphique, le développement ainsi que l'intégration des données de l'API Leaguepedia. Nous avons également évaluer la faisabilité du projet en intégrant un aspect marketing avec des cibles et une stratégie de communication. Un entretien a aussi été fait avec une avocate pour déterminer les points juridiques à mettre en lumière.",
       "coverSrc": "Bet-it/landing.png",
-      "imgsSrcs": [
+      "imgs": [
         "Bet-it/home.png",
         "Bet-it/fantasyLeagueFinal.png",
         "Bet-it/fantasyLeague.png",
@@ -199,11 +204,34 @@
       ],
       "year": "2021",
       "icones": {
-        "travail en groupe" : "fas fa-users",
+        "travail en équipe" : "fas fa-users",
         "graphisme" : "fas fa-pen",
         "développement" : "fas fa-code"
       },
-      "technology": ["Figma", "UI/UX", "Illustrator", "Personnae", ""],
+      "technologies": ["Figma", "UI/UX", "Illustrator", "Personnae", ""],
+      "img": ["Figma", "UI/UX", "Photoshop", "Personnae"]
+    },
+    {
+      "id": 10,
+      "title": "Rendez-vous design",
+      "resume": "Site vitrine pour l'agence fictive Digital SEO",
+      "details": "Emball'app est une application qui permet de se rendre compte de l'impacte environnemental de produit scannés.",
+      "goal": "Ce projet avait pour but de ",
+      "realisation": "Nous avons réalisé les maquettes, la charte graphique, le développement ainsi que l'intégration des données de l'API Leaguepedia. Nous avons également évaluer la faisabilité du projet en intégrant un aspect marketing avec des cibles et une stratégie de communication. Un entretien a aussi été fait avec une avocate pour déterminer les points juridiques à mettre en lumière.",
+      "coverSrc": "Bet-it/landing.png",
+      "imgs": [
+        "Bet-it/home.png",
+        "Bet-it/fantasyLeagueFinal.png",
+        "Bet-it/fantasyLeague.png",
+        "Bet-it/popUp.png"
+      ],
+      "year": "2021",
+      "icones": {
+        "travail en équipe" : "fas fa-users",
+        "graphisme" : "fas fa-pen",
+        "développement" : "fas fa-code"
+      },
+      "technologies": ["Figma", "UI/UX", "Illustrator", "Personnae", ""],
       "img": ["Figma", "UI/UX", "Photoshop", "Personnae"]
     }
   ]
