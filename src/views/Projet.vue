@@ -14,7 +14,7 @@
       <h3 class="font-under-title">{{ project.resume }}</h3>
     </v-row>
 
-    <v-row justify="center mb-10">
+    <v-row justify="center">
       <v-chip
         color="primary"
         size="30"
@@ -54,7 +54,7 @@
           :src="require(`../../public/img/ProjectImg/${project.mockupImg}`)"
           aspect-ratio="1"
           max-width="300"
-          max-height="200"
+          max-height="300"
           :alt="`Mockups projet ${project.title} ${project.year} maquettes`"
         ></v-img>
       </v-col>
@@ -84,17 +84,7 @@
 
     <v-row class="mt-10">
       <v-col
-        class="col-12 d-flex justify-center align-center"
-        v-if="project.bigImg"
-      >
-        <v-img
-          :lazy-src="require(`../../public/img/ProjectImg/${project.bigImg}`)"
-          :src="require(`../../public/img/ProjectImg/${project.bigImg}`)"
-          contain
-        ></v-img>
-      </v-col>
-      <v-col
-        class="
+          class="
           col-sm-6 col-md-6 col-lg-6 col-xl-6 col-12
           d-flex
           justify-center
@@ -105,7 +95,7 @@
         <p>{{ project.goal }}</p>
       </v-col>
       <v-col
-        class="
+          class="
           col-sm-6 col-md-6 col-lg-6 col-xl-6 col-12
           d-flex
           justify-center
@@ -115,6 +105,18 @@
       >
         <p>{{ project.realisation }}</p>
       </v-col>
+      <v-col
+        class="col-12 d-flex justify-center align-center"
+        v-if="project.bigImg"
+      >
+        <v-img
+          :lazy-src="require(`../../public/img/ProjectImg/${project.bigImg}`)"
+          :src="require(`../../public/img/ProjectImg/${project.bigImg}`)"
+          contain
+          max-height=""
+        ></v-img>
+      </v-col>
+
     </v-row>
 
     <v-row>

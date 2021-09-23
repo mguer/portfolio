@@ -21,6 +21,7 @@
       >
         <v-img
           :src="require(`../../public/img/ProjectImg/${project.coverSrc}`)"
+          :lazy-src="require(`../../public/img/ProjectImg/${project.coverSrc}`)"
           height="200px"
         ></v-img>
 
